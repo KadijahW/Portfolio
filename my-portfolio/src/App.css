@@ -1,6 +1,15 @@
 .App {
   text-align: center;
   height: 99vh;
-  background-color:#262730;
+  background-color:#D5C5C8;
 }
 
+
+.typewrite{ 
+  color: #F1F2EB; 
+  text-decoration: none;
+  font-size: 15vh;
+  display: flex;
+  justify-content: center;
+  margin-top: 25vh;
+}

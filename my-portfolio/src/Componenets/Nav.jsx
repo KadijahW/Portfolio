@@ -2,6 +2,7 @@ import React from 'react'
 import { Link } from 'react-router-dom'
 import Home from './Home'
 import '../CSS/Nav.css'
+import Pdf from '../Res'
 
 const Nav = () => {
     return (
@@ -13,9 +14,10 @@ const Nav = () => {
          <div className='links'>
             <Link to="/about">About</Link>{" "}
             <Link to="/projects">Projects</Link>{" "}
-            <Link to="/">Resume</Link>{" "}
+            <a href={Pdf} to="/">Resume</Link>{" "}
             </div>
         </nav>
+        <Home/>
         </div>
 )
 }
