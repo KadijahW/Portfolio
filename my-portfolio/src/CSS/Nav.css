@@ -1,0 +1,29 @@
+  nav {
+      margin: 0px;
+      padding-top: 15px;
+      background-color: #A288A6;
+      padding-left: 0%;
+      height: 15vh;
+  }
+
+  nav a {
+      margin-right: 3%;
+      color: white;
+      text-decoration: none;
+  }
+
+  nav li {
+      display: inline;
+  }
+
+  .links {
+      margin-top: 4vh;
+      display: flex;
+      justify-content: flex-end;
+  }
+
+
+  .profile-logo {
+      width: 15vh;
+      float: left;
+  }
