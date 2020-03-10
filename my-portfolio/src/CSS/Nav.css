@@ -31,3 +31,8 @@
       width: 15vh;
       float: left;
   }
+
+  .intro {
+    font-size: 50px;
+    color: ghostwhite;
+  }
