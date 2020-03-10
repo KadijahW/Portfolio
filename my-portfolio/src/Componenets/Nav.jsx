@@ -13,13 +13,13 @@ const Nav = () => {
              <img className='profile-logo' src={require('../Profile-Logo.png')} alt='profile-logo'/>
              </div>
          <div className='links'>
-            <Link to="/about">About</Link>{" "}
-            <Link to="/projects">Projects</Link>{" "}
+             <Link to='/'>Home</Link>
+            <Link to="/About">About</Link>{" "}
+            <Link to="/Projects">Projects</Link>{" "}
             <a href={Pdf} target='_blank' rel='noopener noreffer'>Resume</a>{" "}
             </div>
-           
         </nav>
-        <Home/>
+
         </div>
 )
 }

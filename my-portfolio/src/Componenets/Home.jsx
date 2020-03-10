@@ -1,10 +1,11 @@
 import React from 'react'
 import Typical from 'react-typical'
+import '../CSS/Home.css'
 
 const Home = () => {
 
     return (
-        <div>
+        
             <div className='intro'>
                 <h1>Hi.</h1>
                 <p>
@@ -24,7 +25,6 @@ const Home = () => {
 
             </div>
 
-        </div>
 
     )
 }
