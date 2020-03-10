@@ -2,7 +2,8 @@ import React from 'react'
 import { Link } from 'react-router-dom'
 import Home from './Home'
 import '../CSS/Nav.css'
-import Pdf from '../Res'
+import Pdf from '../Resume.pdf'
+
 
 const Nav = () => {
     return (
@@ -14,8 +15,9 @@ const Nav = () => {
          <div className='links'>
             <Link to="/about">About</Link>{" "}
             <Link to="/projects">Projects</Link>{" "}
-            <a href={Pdf} to="/">Resume</Link>{" "}
+            <a href={Pdf} target='_blank' rel='noopener noreffer'>Resume</a>{" "}
             </div>
+           
         </nav>
         <Home/>
         </div>

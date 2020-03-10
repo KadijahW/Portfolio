@@ -1,5 +1,8 @@
 
-  nav {
+  .container {
+    grid-column: 1 / 4;
+  }
+  nav { 
       margin: 0px;
       padding-top: 15px;
       background-color: #A288A6;
