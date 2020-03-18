@@ -1,6 +1,6 @@
 import React from 'react'
 import { FaAdobe, FaGitAlt, FaReact } from 'react-icons/fa'
-import { DiPostgresql } from 'react-icons/di'
+import { DiPostgresql, DiNodejs } from 'react-icons/di'
 import { IoLogoJavascript, IoLogoHtml5, IoLogoCss3 } from 'react-icons/io'
 import '../CSS/About.css';
 
@@ -9,44 +9,48 @@ const About = () => {
         <div className='main-container'>
 
             <div className='firstSection'>
-                <p>Random Text</p>
+                <p>IDK </p>
             </div>
 
             <div className='secSection'>
-                <h1>Incase you wanted to read more about me</h1>
+                <h1>More about me</h1>
             </div>
 
             <div className='thirdSection'>
-                <h1>Some skills that I know</h1>
+                <h1>Skills that I know</h1>
             </div>
 
             <div className='fourthSection'>
                 <div>
-                    <IoLogoJavascript className='skill-icon' style={{ color: "yellow" }} />
+                    <IoLogoJavascript className='skill-icon' style={{ color: "Yellow" }} />
                     <p>Javascript</p>
                 </div>
                 <div>
-                    <IoLogoHtml5 className='skill-icon' style={{ color: "orangered" }} />
+                    <IoLogoHtml5 className='skill-icon' style={{ color: "OrangeRed" }} />
                     <p>HTML</p>
                 </div>
                 <div>
-                    <IoLogoCss3 className='skill-icon' style={{ color: "blue" }} />
+                    <IoLogoCss3 className='skill-icon' style={{ color: "Blue" }} />
                     <p>CSS</p>
                 </div>
                 <div>
-                    <FaAdobe className='skill-icon' style={{ color: "red" }} />
+                    <DiNodejs className='skill-icon' style={{ color: "LimeGreen" }}/>
+                    <p>Node JS</p>
+                </div>
+                <div>
+                    <FaAdobe className='skill-icon' style={{ color: "Red" }} />
                     <p>Adobe</p>
                 </div>
                 <div>
-                    <DiPostgresql className='skill-icon' style={{ color: "darkblue" }} />
+                    <DiPostgresql className='skill-icon' style={{ color: "Navy" }} />
                     <p>PostGres</p>
                 </div>
                 <div>
-                    <FaGitAlt className='skill-icon' style={{ color: "orange" }} />
+                    <FaGitAlt className='skill-icon' style={{ color: "OrangeRed" }} />
                     <p>GitHub</p>
                 </div>
                 <div>
-                    <FaReact className='skill-icon' />
+                    <FaReact className='skill-icon' style={{ color: "CornflowerBlue" }}/>
                     <p>React</p>
                 </div>
 
