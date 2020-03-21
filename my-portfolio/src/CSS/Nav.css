@@ -39,4 +39,8 @@
     /* visibilitity: hidden; */
     display: none
 }
+.links{
+    display: flex;
+    justify-content: center;
+}
   }
