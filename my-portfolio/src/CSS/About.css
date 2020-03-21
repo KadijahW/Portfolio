@@ -2,7 +2,7 @@
     height: 75vh;
     display: grid;
     grid-template-columns: 1fr 1fr;
-    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
 }
 
 .firstSection {
@@ -48,7 +48,6 @@
 }
 
 
-
 .skill-icon {
     font-size: 80px;
 }
@@ -56,6 +55,5 @@
 @media only screen and (max-width: 700px){
   .main-container{
       display: inline;
-
   }
     } 
