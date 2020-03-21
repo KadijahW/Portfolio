@@ -34,4 +34,9 @@
       float: left;
   }
 
- 
+  @media only screen and (max-width: 700px){
+.profile-logo{
+    /* visibilitity: hidden; */
+    display: none
+}
+  }
