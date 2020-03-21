@@ -5,11 +5,12 @@ const Projects = () => {
         <div className='projects-container'>
             <div className='projectCard'> 
             <h1>youtube</h1>
-            <p> This app is a replica of the website youtube.
+            {/* <img src={require('../images/youtube_replica.png')} alt="youtube screenshot"/> */}
+            {/* <p> This app is a replica of the website youtube.
                 I used the youtube API to fetch the data(videos) that 
                 the user is searching for, users are allowed to watch 
                 the videos and leave comment
-            </p>
+            </p> */}
             </div>
             <div className='projectCard'> 
 
