@@ -55,6 +55,25 @@ const Projects = () => {
                     </div>
                 </div>
             </div>
+
+            <div className='projects-container'>
+                <div className='projectCard'>
+                    <div className='flip-card-front'>
+                        <h1 className='title'>Tekpack</h1>
+                        <img src={require('../images/Tekpack.png')} alt="tekpack screenshot" className='project-img' />
+                    </div>
+                    <div className='flip-card-back'>
+                        <p>
+                        TekPack is your one stop shop to manage and keep track of product specifications and its 
+                        related content seamlessly, between both parties. A simple User Interface and headache free User 
+                        Experience with all the key options & features needed built into one platform. Some of the features are creating 
+                        templates for forms, drag and drop image uploading, live changes in the form, auto generating pdf files & spreadsheets.
+                    </p>
+                        <button> Github </button>
+                    </div>
+                </div>
+            </div>
+
         </div>
     )
 }
