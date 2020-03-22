@@ -53,7 +53,7 @@
     text-decoration: underline;
 }
 
-/* @media only screen and (max-width: 700px){
+@media only screen and (max-width: 700px){
     .mainContainer{
         display: flex;
         flex-direction: column;
@@ -63,4 +63,4 @@
     height: 73%;
     }
     
-      }  */
+      } 
