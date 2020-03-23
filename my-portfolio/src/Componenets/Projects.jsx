@@ -65,9 +65,7 @@ const Projects = () => {
                     <div className='flip-card-back'>
                         <p>
                         TekPack is your one stop shop to manage and keep track of product specifications and its 
-                        related content seamlessly, between both parties. A simple User Interface and headache free User 
-                        Experience with all the key options & features needed built into one platform. Some of the features are creating 
-                        templates for forms, drag and drop image uploading, live changes in the form, auto generating pdf files & spreadsheets.
+                        related content seamlessly, between both designers and manufacutures.
                     </p>
                         <button> Github </button>
                     </div>
