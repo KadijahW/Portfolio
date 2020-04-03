@@ -1,5 +1,6 @@
 import React from 'react'
 import '../CSS/Projects.css'
+// import {Link} from 'react-router-dom'
 
 
 const Projects = () => {
@@ -17,7 +18,7 @@ const Projects = () => {
                         the user is searching for. Users are allowed to watch
                         the videos and leave comments.
                     </p>
-                        <button> Github </button>
+                    <a href='https://github.com/KadijahW/Pursuit-Core-Web-Unit-4-Assessment' target='_blank' rel="noopener noreferrer"> <button>Github</button></a>    
                     </div>
                 </div>
             </div>
@@ -34,7 +35,7 @@ const Projects = () => {
                             in sharing high quality snapshots of our users interests
                             and experiences.
                     </p>
-                        <button> Github </button>
+                    <a href='https://github.com/KadijahW/Shutter' target='_blank' rel="noopener noreferrer"> <button>Github</button></a>    
                     </div>
                 </div>
             </div>
@@ -51,7 +52,7 @@ const Projects = () => {
                             The web app allows users to draw cards, hit or stay, and draws cards for the computer.
                             Whoever scores 21 or is closer to 21 wins.
                     </p>
-                        <button> Github </button>
+                        <a href='https://github.com/KadijahW/21-web-game' target='_blank' rel="noopener noreferrer"> <button>Github</button></a>    
                     </div>
                 </div>
             </div>
@@ -67,7 +68,7 @@ const Projects = () => {
                         TekPack is your one stop shop to manage and keep track of product specifications and its 
                         related content seamlessly, between both designers and manufacutures.
                     </p>
-                        <button> Github </button>
+                    <a href='https://github.com/KadijahW/Tekpack' target='_blank' rel="noopener noreferrer"> <button>Github</button></a>  
                     </div>
                 </div>
             </div>
