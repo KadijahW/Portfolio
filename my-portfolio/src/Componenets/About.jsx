@@ -13,14 +13,10 @@ const About = () => {
             </div>
 
             <div className='secSection'>
-                <p> While I gained majority of my technical experience through my college career, 
-                    my passion for tech began at the age of 16. The very first time I dissected a 
-                    computer I knew that I wanted to know more about computers and its functions. 
-                    My hunger to learn more is how I found Pursuit, an intensive 12 month program 
-                    where I gained hands-on experience with JavaScript, Express, APIs, Data Structures, 
-                    Algorithms and much more. Through the program I also learned tech principles and culture 
-                    via team and individual projects, how to code, review and pair programming.
-                     Thanks to everyone at Pursuit I can confidently say today I am a software engineer.
+                <p>
+                When i'm not coding you can often find me doing mini projects, arts and crafts with
+                 my family or trying new foods. I also love putting together furniture, so ikea is heaven 
+                 on earth me.
                 </p>
             </div>
 
