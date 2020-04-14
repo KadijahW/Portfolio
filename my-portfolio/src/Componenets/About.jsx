@@ -15,8 +15,8 @@ const About = () => {
             <div className='secSection'>
                 <p>
                 When i'm not coding you can often find me doing mini projects, arts and crafts with
-                 my family or trying new foods. I also love putting together furniture, so ikea is heaven 
-                 on earth me.
+                 my family or trying new foods. I also love putting together furniture, so Ikea is heaven 
+                 on earth to me.
                 </p>
             </div>
 
