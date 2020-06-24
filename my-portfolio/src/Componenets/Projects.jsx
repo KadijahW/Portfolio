@@ -7,9 +7,9 @@ const Projects = () => {
     return (
         <div className='mainContainer'>
             <div className='projects-container'>
+            <h1 className='title'>Youtube Replica</h1>
                 <div className='projectCard'>
                     <div className='flip-card-front'>
-                        <h1 className='title'>Youtube Replica</h1>
                         <img src={require('../images/youtube_replica.png')} alt="youtube screenshot" className='project-img' />
                     </div>
                     <div className='flip-card-back'>
@@ -24,9 +24,9 @@ const Projects = () => {
             </div>
 
             <div className='projects-container'>
+            <h1 className='title'>Shutter</h1>
                 <div className='projectCard'>
                     <div className='flip-card-front'>
-                        <h1 className='title'>Shutter</h1>
                         <img src={require('../images/Shutter.png')} alt="shutter screenshot" className='project-img' />
                     </div>
                     <div className='flip-card-back'>
@@ -41,9 +41,9 @@ const Projects = () => {
             </div>
 
             <div className='projects-container'>
+            <h1 className='title'>Simple 21</h1>
                 <div className='projectCard'>
                     <div className='flip-card-front'>
-                        <h1 className='title'>Simple 21</h1>
                         <img src={require('../images/Simple21.png')} alt="shutter screenshot" className='project-img' />
                     </div>
                     <div className='flip-card-back'>
@@ -58,9 +58,9 @@ const Projects = () => {
             </div>
 
             <div className='projects-container'>
+            <h1 className='title'>Tekpack</h1>
                 <div className='projectCard'>
                     <div className='flip-card-front'>
-                        <h1 className='title'>Tekpack</h1>
                         <img src={require('../images/Tekpack.png')} alt="tekpack screenshot" className='project-img' />
                     </div>
                     <div className='flip-card-back'>

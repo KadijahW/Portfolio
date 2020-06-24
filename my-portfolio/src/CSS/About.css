@@ -3,58 +3,77 @@
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr 1fr;
+    padding: 2%;
+}
+.firstSection h1 {
+    margin: 15vh;
 }
 
 .firstSection {
     grid-column-start: 1;
     grid-column-end: 2;
-    background-color: #80A1C1;
-    display: flex;
-    flex-wrap: wrap;
+    background-color: #F2D5F8;
     justify-content: center;
     align-content: center;
+    width: 100%;
+    border: 1px solid white;
+}
+
+.secSection p {
+    margin: 15vh;
 }
 
 .secSection {
     grid-column-start: 2;
     grid-column-end: 3;
     background-color: #FFEDE1;
-    display: flex;
-    flex-wrap: wrap;
     justify-content: center;
     align-content: center;
+    width: 100%;
+    border: 1px solid white;
+
+}
+
+.thirdSection h1 {
+    margin: 15vh;
 }
 
 .thirdSection {
     grid-row-start: 2;
     grid-row-end: 3;
     background-color: #FFEDE1;
-    display: flex;
-    flex-wrap: wrap;
     justify-content: center;
     align-content: center;
+    width: 100%;
+    border: 1px solid white;
+
 }
 
 
 .fourthSection {
     grid-row-start: 2;
     grid-row-end: 3;
-    display: flex;
-    background-color: #E2C044;
-    flex-wrap: wrap;
-    flex-direction: row;
+    /* background-color: #dcd5eb; */
+    background-color: #F2D5F8;
     justify-content: center;
     align-content: center;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    width: 100%;
+    border: 1px solid white;
+
 }
 
 
 .skill-icon {
-    font-size: 80px;
+   width: 20%;
+   padding-right: 2%;
 }
 
 @media only screen and (max-width: 700px){
   .main-container{
-      display: inline;
+      /* display: inline; */
+      height: 80vh;
   }
   
     } 

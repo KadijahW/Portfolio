@@ -1,7 +1,6 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
 import '../CSS/Nav.css'
-import Pdf from '../Resume.pdf'
 
 
 const Nav = () => {
@@ -15,7 +14,7 @@ const Nav = () => {
              <Link to='/'>Home</Link>
             <Link to="/About">About</Link>{" "}
             <Link to="/Projects">Projects</Link>{" "}
-            <a href={Pdf} target='_blank' rel="noopener noreferrer">Resume</a>{" "}
+            <a href='https://drive.google.com/file/d/1RyWIXZR3DP3fmMaX_VmCQzq91VYZ-cmL/view?usp=sharing' target='_blank' rel="noopener noreferrer">Resume</a>{" "}
             </div>
         </nav>
 
