@@ -2,8 +2,7 @@ import React from 'react';
 import './App.css';
 import Nav from'./Componenets/Nav'
 import { library } from '@fortawesome/fontawesome-svg-core'
-import { faGithub, faLinkedin } from '@fortawesome/free-brands-svg-icons'
-// import { faCheckSquare, faCoffee } from '@fortawesome/free-solid-svg-icons'
+import { faGithub, faLinkedin} from '@fortawesome/free-brands-svg-icons'
 import Footer from './Componenets/Footer'
 import Home from './Componenets/Home'
 import About from './Componenets/About'
