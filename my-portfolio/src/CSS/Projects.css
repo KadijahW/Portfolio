@@ -9,10 +9,10 @@
 .projects-container {
     background-color: transparent;
     width: 300px;
-    height: 200px;
+    height: 300px;
     border: 1px solid black;
     perspective: 1000px;
-    margin-top: 20%;
+    /* margin-top: 20%; */
 }
 
 .projectCard {
