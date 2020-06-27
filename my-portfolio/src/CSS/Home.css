@@ -1,4 +1,5 @@
 .intro {
+  min-height: 48vh;
     font-size: 50px;
     color: ghostwhite;
     /* grid-row: 2;

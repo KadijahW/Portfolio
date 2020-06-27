@@ -1,6 +1,6 @@
 .mainContainer{
     display: grid;
-    grid-template-columns: repeat(auto-fit,300px);
+    grid-template-columns: repeat(auto-fit, 300px);
     grid-template-rows: 1fr 1fr;
     grid-gap: 10px;
     justify-content: center;
@@ -33,11 +33,7 @@
     backface-visibility: hidden;
   }
 
-  
-  /* .flip-card-front {
-    color: black;
-  } */
-
+ 
   .flip-card-back {
     color: white;
     transform: rotateY(180deg);
