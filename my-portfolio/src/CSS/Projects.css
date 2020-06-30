@@ -4,12 +4,13 @@
     grid-template-rows: 1fr 1fr;
     grid-gap: 10px;
     justify-content: center;
+    margin: 2.5%;
 }
 
 .projects-container {
     background-color: transparent;
     width: 300px;
-    height: 300px;
+    height: 200px;
     border: 1px solid black;
     perspective: 1000px;
     /* margin-top: 20%; */
@@ -43,7 +44,6 @@
 .project-img{
     width: 300px;
     height: 200px;
-    margin-top: -14px;
 }
 
 .title{
@@ -64,6 +64,5 @@
     }
     .project-img{
         object-fit: cover;
-        margin-top: -13px;
     }
       } 

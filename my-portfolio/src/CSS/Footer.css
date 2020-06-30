@@ -1,7 +1,7 @@
 .fab{
-    position: absolute;
-    display: flex;
-    flex-wrap: wrap;
+
+    align-self: baseline;
+    margin-bottom: -50px;
     justify-content: center;
     right: 0;
     left: 0;
