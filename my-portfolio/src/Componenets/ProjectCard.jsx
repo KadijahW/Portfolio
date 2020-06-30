@@ -13,12 +13,8 @@ function ProjectCard({ project }) {
 
         <div className="flip-card-back">
             <p>{description}</p>
-              <a href={repo}>
-                <p>GitHub</p>
-              </a>
-              <a href={live}>
-                <p>Live</p>
-              </a>
+              <a href={repo}><p>GitHub</p></a>
+              <a href={live}><p>Live</p></a>
             </div>
           </div>
         </div>
