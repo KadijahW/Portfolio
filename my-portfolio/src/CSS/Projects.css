@@ -10,10 +10,9 @@
 .projects-container {
     background-color: transparent;
     width: 300px;
-    height: 200px;
+    height: 250px;
     border: 1px solid black;
     perspective: 1000px;
-    /* margin-top: 20%; */
 }
 
 .projectCard {
@@ -43,19 +42,24 @@
 
 .project-img{
     width: 300px;
-    height: 200px;
+    height: 250px;
 }
 
 .title{
     font-variant: small-caps;
     text-decoration: underline;
+    text-decoration-color: white;
     position: relative;
     z-index: 10;
     width: 100%;
-    margin-top: -15%;
     text-shadow: 10px 10px 10px black;
     color: white;
     background-color: #0000008c;
+}
+
+.ref{
+    display: inline-block;
+    margin-right: 2%;
 }
 
 @media only screen and (max-width: 700px){
