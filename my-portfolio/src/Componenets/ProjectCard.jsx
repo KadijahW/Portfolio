@@ -1,4 +1,4 @@
-import React from 'react'
+import React  from 'react'
 
 function ProjectCard({ project }) {
   const { title, description, img, repo, live } = project
