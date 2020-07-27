@@ -16,7 +16,7 @@ const StyledLink = styled(Link)
     text-decoration: none;
 }
 
-@media (max-width: 760px){
+@media (max-width: 768px){
     .links{
         flex-flow: column nowrap;
         background-color: #A288A6;
