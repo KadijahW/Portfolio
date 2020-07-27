@@ -18,22 +18,23 @@ const StyledLink = styled(Link)
 
 @media (max-width: 760px){
     .links{
-        display: none;
         flex-flow: column nowrap;
         background-color: #A288A6;
         position: fixed;
+        transform: ${({ open }) => open ? 'translateX(0)' : 'translateX(100%)'};
         top: 0;
         right: 0;
         min-height: 95vh;
         width: 150px;
         padding-top: 3.5rem;
+        transition: transform 0.3s ease-in-out;
     }
 }
 `
 
-const RightNav = () => {
+const RightNav = ({open}) => {
     return (
-        <StyledLink>
+        <StyledLink open={open}>
         <div className='links'>
                 <Link to='/'>Home</Link>
                 <Link to="/About">About</Link>{" "}

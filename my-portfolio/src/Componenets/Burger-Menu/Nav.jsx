@@ -1,7 +1,6 @@
 import React from 'react'
 // import '../../CSS/Nav.css'
 import styled from 'styled-components'
-import RightNav from './RightNav'
 import Burger from './Burger'
 
 const NavBar = styled.nav`
@@ -30,7 +29,6 @@ const Nav = () => {
                     <img className='profile-logo' src={require('../../Profile-Logo.png')} alt='profile-logo' />
                 </div>
                 <Burger />
-                <RightNav />
             </NavBar>
 
         </div>

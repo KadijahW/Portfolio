@@ -1,5 +1,6 @@
 import React, {useState} from 'react'
 import styled from 'styled-components'
+import RightNav from './RightNav';
 
 
 const StyledBurger = styled.div `
@@ -8,10 +9,14 @@ height: 2rem;
 position: fixed;
 top: 15px;
 right: 20px;
-display: flex;
-justify-content: space-around;
-flex-flow: column nowrap;
+z-index: 100;
+display: none;
 
+@media(max-width: 768px){
+    display: flex;
+    justify-content: space-around;
+    flex-flow: column nowrap;
+}
 div {
     width: 2rem;
     height: 0.25rem;
@@ -32,18 +37,21 @@ div {
     &:nth-child(3) {
         transform: ${({ open }) => open ? 'rotate(-45deg)' : 'rotate(0)'};
     }
-}`;
+}
+`;
 
 
 const Burger = () => {
     const [open, setOpen] = useState(false)
 return (
+    <>
      <StyledBurger open={open} onClick={() => setOpen(!open)} >
          <div />
          <div />
          <div />
-
      </StyledBurger>
+     <RightNav open={open} />
+     </>
  )
 }
 
