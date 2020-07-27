@@ -1,7 +1,7 @@
 import React  from 'react'
 
 function ProjectCard({ project }) {
-  const { title, description, img, repo, live } = project
+  const { title, description, img, repo } = project
   return (
       <div>
     <h1 className="title">{title}</h1>
