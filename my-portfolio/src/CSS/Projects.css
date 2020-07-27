@@ -65,6 +65,8 @@
 @media only screen and (max-width: 700px){
     .mainContainer{
       position: relative;
+      z-index: 20;
+
     }
     .project-img{
         object-fit: cover;

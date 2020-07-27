@@ -28,6 +28,8 @@ const StyledLink = styled(Link)
         width: 150px;
         padding-top: 3.5rem;
         transition: transform 0.3s ease-in-out;
+        z-index: 50;
+
     }
 }
 `
