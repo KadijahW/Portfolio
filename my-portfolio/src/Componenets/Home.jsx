@@ -11,7 +11,7 @@ return (
                 <p>
                     <Typical
                         loop={Infinity}
-                        wrapper="b"
+                        wrapper="p"
                         steps={[
                             "Welcome.",
                             2000,
