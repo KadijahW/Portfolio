@@ -1,6 +1,6 @@
 import React from 'react';
 import './App.css';
-import Nav from'./Componenets/Nav'
+import Nav from'./Componenets/Burger-Menu/Nav'
 import { library } from '@fortawesome/fontawesome-svg-core'
 import { faGithub, faLinkedin} from '@fortawesome/free-brands-svg-icons'
 import Footer from './Componenets/Footer'
