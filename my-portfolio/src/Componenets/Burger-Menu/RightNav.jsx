@@ -11,7 +11,7 @@ const StyledLink = styled(Link)
  }
 
  .links a {
-    margin-right: 1%;
+    margin-right: 3%;
     color: white;
     text-decoration: none;
 }
@@ -41,7 +41,7 @@ const RightNav = ({open}) => {
                 <Link to='/'>Home</Link>
                 <Link to="/About">About</Link>{" "}
                 <Link to="/Projects">Projects</Link>{" "}
-                <a href='https://drive.google.com/file/d/1RyWIXZR3DP3fmMaX_VmCQzq91VYZ-cmL/view?usp=sharing' target='_blank' rel="noopener noreferrer">Resume</a>{" "}
+                <a href='https://docs.google.com/document/d/1IqHxy45VdkyR_Sy9Y2yto3e21fSM5XAU6Z6rJEaui6Q/edit?usp=sharing' target='_blank' rel="noopener noreferrer">Resume</a>{" "}
         </div>
         </StyledLink>
 
