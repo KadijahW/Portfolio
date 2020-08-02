@@ -21,7 +21,7 @@ const projects = [
     description: "Developed a web based game app that allows users to play against the computer. The web app allows users to draw cards, hit or stay, and draws cards for the computer. Whoever scores 21 or is closer to 21 wins.",
     img: "../images/Simple21.png",
     repo: "https://github.com/KadijahW/21-web-game",
-    live: "simple-21.netlify.app"
+    live: "https://kadijahw.github.io/21-web-game/"
 },
 {
     title: "Tekpack",
