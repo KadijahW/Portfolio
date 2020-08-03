@@ -41,7 +41,7 @@ const RightNav = ({open}) => {
                 <Link to='/'>Home</Link>
                 <Link to="/About">About</Link>{" "}
                 <Link to="/Projects">Projects</Link>{" "}
-                <a href="https://docs.google.com/document/d/1IqHxy45VdkyR_Sy9Y2yto3e21fSM5XAU6Z6rJEaui6Q/edit?usp=sharing" target='_blank' rel="noopener noreferrer">Resume</a>{" "}
+                <a href="https://docs.google.com/document/d/1IqHxy45VdkyR_Sy9Y2yto3e21fSM5XAU6Z6rJEaui6Q/edit?usp=sharing"  rel="noopener noreferrer" target='_blank'>Resume</a>{" "}
         </div>
         </StyledLink>
 
