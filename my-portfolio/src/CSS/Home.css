@@ -8,7 +8,7 @@
     z-index:20;
   }
 
-  .displayIntro{
+  .bio{
     margin-top: -15%;
     font-size: 40px;
     float: left;
@@ -17,11 +17,24 @@
     padding: 1%;
   }
 
-
+.cartoon{
+    width: 22vw;
+    border-radius: 45%;
+    margin-top: -15%;
+}
+.cartoon:hover {
+  transform: scaleX(-1);
+}
   
 @media only screen and (max-width: 700px){
 .displayIntro{
   margin-top: -32%;
-
 }
+.bio{
+  margin-left: 0%;
+}
+.cartoon{
+  margin-top: -15%;
+}
+
 }
