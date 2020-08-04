@@ -4,8 +4,7 @@ import styled from 'styled-components'
 import Burger from './Burger'
 
 const NavBar = styled.nav`
-// width: 97vw;
-height: 65px;
+height: 50%;
 border-bottom: 2px solid white;
 padding: 0 18px;
 display: flex;
@@ -19,7 +18,9 @@ background-color: #A288A6;
 .profile-logo {
     width: 8vh;
     float: left;
-}`;
+}
+
+`;
 
 const Nav = () => {
     return (
