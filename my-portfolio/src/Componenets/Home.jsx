@@ -8,7 +8,6 @@ const Home = () => {
         setDisplayTypical(false)
     }, 16000)
 
-
     return (
         <div className='intro'>
             {displayTypical ? (
