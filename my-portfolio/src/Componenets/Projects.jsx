@@ -42,8 +42,12 @@ const projects = [
 
 const Projects = () => {
     return (
-        <div className='mainContainer'>
-         {projects.map(p => <ProjectCard project={p} /> )}
+        <div className='projectContainer'>
+            <div id='pj'>
+            {projects.map(p => <ProjectCard project={p} /> )}
+
+            </div>
+
         </div>
     )
 }
