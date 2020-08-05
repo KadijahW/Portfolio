@@ -1,10 +1,13 @@
-.mainContainer{
+.projectContainer{
+    margin-top: 1%;
+    margin-bottom: -7%;
+}
+
+#pj{
     display: grid;
-    grid-template-columns: repeat(auto-fit, 300px);
-    grid-template-rows: 1fr 1fr;
-    grid-gap: 10px;
-    justify-content: center;
-    margin: 2.5%;
+    grid-template-columns: repeat(3, 300px);
+    grid-gap: 20px;
+    justify-content: center; 
 }
 
 .projects-container {
@@ -63,10 +66,14 @@
 }
 
 @media only screen and (max-width: 700px){
-    .mainContainer{
-      position: relative;
+    .projectContainer{
+        margin-left: 10%;
       z-index: 20;
-
+    }
+    #pj{
+        display: flex;
+        flex-direction: column;
+        width: 300px;
     }
     .project-img{
         object-fit: cover;
