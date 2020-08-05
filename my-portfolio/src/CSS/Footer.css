@@ -1,23 +1,20 @@
 .fab{
-
-    align-self: baseline;
-    margin-bottom: -50px;
-    justify-content: center;
-    right: 0;
-    left: 0;
-    /* bottom: 0; */
+    position: absolute;
+    margin-bottom: 0;
+    width: 100%;
     padding: 15px;
     background-color: #A288A6;
+    margin-top: 8%;
 }
 
 
 @media only screen and (max-width: 700px){
     .fab{
-    position: unset;
-    align-self: end;
-    right: 0; 
-    /* bottom: -12vh;  */
-    left: 0;
-    padding: 15px;
+        position: unset;
+        align-self: end;
+        right: 0;
+        left: 0;
+        width: 92vw;
+        padding: 15px;
     }
       } 
