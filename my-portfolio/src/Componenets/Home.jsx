@@ -30,13 +30,16 @@ const Home = () => {
             ) : (
                     <div className="displayIntro">
                         <div className='bio'>
-                        <p>Welcome!</p>
-                        <p>My name is Kadijah.</p>
-                        <p> I'm a Software Engineer.</p>
-                        <p>Based in Brooklyn, NY!</p>
+                            <p>Welcome!
+                            My name is Kadijah.
+                            I'm a Software Engineer,
+                        Based in Brooklyn, NY!</p>
+
                         </div>
-                        <img className='cartoon' src='../../cartoon.jpg' alt='cartoonized'/>
-                      
+
+                        <div className='cartoon'>
+                            <img id="me" src='../../cartoon.jpg' alt='cartoonized' />
+                        </div>
                     </div>
                 )
 
