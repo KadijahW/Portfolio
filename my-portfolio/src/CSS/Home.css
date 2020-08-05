@@ -1,40 +1,52 @@
 .intro {
-  min-height: 48vh;
-    font-size: 50px;
-    color: ghostwhite;
-    /* grid-row: 2;
-    grid-column: 1 / 4; */
-    margin-top: 35vh;
-    z-index:20;
-  }
-
-  .bio{
-    margin-top: -15%;
-    font-size: 40px;
-    float: left;
-    border: 2px solid ghostwhite;
-    margin-left: 5%;
-    padding: 1%;
-  }
-
-.cartoon{
-    width: 22vw;
-    border-radius: 45%;
-    margin-top: -15%;
+  height: 48vh;
+  font-size: 50px;
+  color: ghostwhite;
+  margin-top: 21vh;
+  z-index: 20;
 }
-.cartoon:hover {
+
+.displayIntro {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  margin-bottom: 2%;
+}
+
+.bio {
+  font-size: 40px;
+  float: left;
+  margin-left: 5%;
+  padding: 1%;
+}
+
+#me {
+  width: 22vw;
+  border-radius: 45%;
+  border: 5px solid #A288A6;
+
+}
+
+#me:hover {
   transform: scaleX(-1);
 }
-  
-@media only screen and (max-width: 700px){
-.displayIntro{
-  margin-top: -32%;
-}
-.bio{
-  margin-left: 0%;
-}
-.cartoon{
-  margin-top: -15%;
-}
 
+@media only screen and (max-width: 700px) {
+  .intro {
+    margin-top: 68%;
+  }
+
+  .displayIntro {
+    display: flex;
+    flex-direction: column;
+    margin-top: 10%;
+  }
+
+  .bio {
+    margin-top: -45%;
+    margin-left: 0%;
+  }
+
+  #me {
+    width: 35vw;
+  }
 }
