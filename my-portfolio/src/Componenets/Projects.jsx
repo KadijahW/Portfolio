@@ -8,7 +8,8 @@ const projects = [
     title: "Youtube Replica", 
     description: "This app is a replica of the website youtube I used the youtube API to fetch the data(videos) that the user is searching for. Users are allowed to watch the videos and leave comments.",
     img: "/images/youtube_replica.png",
-    repo: "https://github.com/KadijahW/Pursuit-Core-Web-Unit-4-Assessment"
+    repo: "https://github.com/KadijahW/Pursuit-Core-Web-Unit-4-Assessment",
+    live: "quirky-perlman-7129a2.netlify.app"
 },
 {
     title: "Shutter",
