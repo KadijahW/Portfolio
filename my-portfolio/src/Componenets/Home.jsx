@@ -11,7 +11,6 @@ const Home = () => {
     return (
         <div className='intro'>
             {displayTypical ? (
-                <p>
                     <Typical
                         loop={1}
                         wrapper="p"
@@ -26,7 +25,6 @@ const Home = () => {
                             2000
                         ]}
                     />
-                </p>
             ) : (
                     <div className="displayIntro">
                         <div className='bio'>
