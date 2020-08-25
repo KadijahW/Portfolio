@@ -35,14 +35,14 @@
 }
 
 @media only screen and (max-width: 700px) {
-  .intro {
+  /* .intro {
     margin-top: 68%;
-  }
+  } */
 
   .displayIntro {
     display: flex;
     flex-direction: column;
-    margin-top: 10%;
+    margin-top: 60%;
   }
 
   .bio {
