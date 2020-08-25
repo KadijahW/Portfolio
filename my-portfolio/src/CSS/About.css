@@ -1,13 +1,13 @@
 .main-container {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    padding: 8%;
-    margin-bottom: -5%;
-    margin-top: 2%;
+    padding: 4.5%;
+    /* margin-bottom: -5%; */
+    /* margin-top: 2%; */
 }
 
 .firstSection h1 {
-    margin:26% 0;
+    margin: 18% 0;
 }
 
 .firstSection {
@@ -19,7 +19,7 @@
 }
 
 .secSection p {
-    margin: 10%;
+    margin: 12%;
     font-size: 18px;
 }
 
@@ -33,7 +33,7 @@
 }
 
 .fourthSection h1 {
-    margin: 26% 0;
+    margin: 18% 0;
 }
 
 .thirdSection {
