@@ -4,7 +4,6 @@ import styled from 'styled-components'
 import Burger from './Burger'
 
 const NavBar = styled.nav`
-height: 50%;
 border-bottom: 2px solid white;
 padding: 0 18px;
 display: flex;
