@@ -18,13 +18,14 @@
 
 .bio {
   font-size: 40px;
-  float: left;
+  display: flex;
+  align-items: center;
   margin-left: 5%;
   padding: 1%;
 }
 
 #me {
-  width: 22vw;
+  width: 20vw;
   border-radius: 45%;
   border: 5px solid #A288A6;
 
