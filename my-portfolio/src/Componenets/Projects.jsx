@@ -9,13 +9,14 @@ const projects = [
     description: "This app is a replica of the website youtube I used the youtube API to fetch the data(videos) that the user is searching for. Users are allowed to watch the videos and leave comments.",
     img: "/images/youtube_replica.png",
     repo: "https://github.com/KadijahW/Pursuit-Core-Web-Unit-4-Assessment",
-    live: "quirky-perlman-7129a2.netlify.app"
+    live: "https://youtubereplica.online/"
 },
 {
     title: "Shutter",
     description: "Shutter is a social media web app that concentrates in sharing high quality snapshots of our users interests and experiences.",
     img: "../images/Shutter.png",
-    repo: "https://github.com/KadijahW/Shutter"
+    repo: "https://github.com/KadijahW/Shutter",
+    live: "https://shutter-app.herokuapp.com/"
 },
 {
     title: "Simple 21",
@@ -28,7 +29,8 @@ const projects = [
     title: "Tekpack",
     description: "TekPack is your one stop shop to manage and keep track of product specifications and its related content seamlessly, between both designers and manufacutures.",
     img: "../images/Tekpack.png",
-    repo: "https://github.com/KadijahW/Tekpack"
+    repo: "https://github.com/KadijahW/Tekpack",
+    
 },
 {
     title: "Remote Theater",
