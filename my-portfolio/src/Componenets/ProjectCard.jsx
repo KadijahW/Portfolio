@@ -1,7 +1,7 @@
 import React  from 'react'
 
 function ProjectCard({ project }) {
-  const { title, description, img, repo } = project
+  const { title, description, img, repo, live } = project
   return (
       <div>
     <h1 className="title">{title}</h1>
@@ -15,7 +15,7 @@ function ProjectCard({ project }) {
             <p>{description}</p>
             <span>
               <a className="ref" href={repo}><p>GitHub</p></a> 
-              {/* <a className="ref" href={live}><p>Live</p></a> */}
+              <a className="ref" href={live} target='_blank' rel="noopener noreferrer"><p>Live</p></a>
               </span>
             </div>
           </div>
