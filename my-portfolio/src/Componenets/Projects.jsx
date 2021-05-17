@@ -16,7 +16,7 @@ const projects = [
     description: "Shutter is a social media web app that concentrates in sharing high quality snapshots of our users interests and experiences.",
     img: "../images/Shutter.png",
     repo: "https://github.com/KadijahW/Shutter",
-    live: "https://shutter-app.herokuapp.com/"
+    // live: "https://shutter-app.herokuapp.com/"
 },
 {
     title: "Simple 21",
@@ -38,6 +38,13 @@ const projects = [
     img: "../images/Remote-Theater.png",
     repo: "https://github.com/KadijahW/remote-theater",
     live: "https://remotetheater.herokuapp.com/"
+},
+{
+    title: "Amazon Clone",
+    description: "This web app replicates the website Amazon. Firebase for user authorization for users to log in and out, Users are able to add and remove products to their baskets and see the subtotal of items in basket.",
+    img: "../images/AmazonClone.png",
+    repo: "https://github.com/KadijahW/AmazonClone",
+    live: ""
 }
 
 ]
