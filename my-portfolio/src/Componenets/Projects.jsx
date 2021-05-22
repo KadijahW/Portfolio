@@ -44,7 +44,7 @@ const projects = [
     description: "This web app replicates the website Amazon. Firebase for user authorization for users to log in and out, Users are able to add and remove products to their baskets and see the subtotal of items in basket.",
     img: "../images/AmazonClone.png",
     repo: "https://github.com/KadijahW/AmazonClone",
-    live: ""
+    live: "https://cloneofamazon.netlify.app"
 }
 
 ]
